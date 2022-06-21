@@ -1,0 +1,27 @@
+.converter {
+	display: flex;
+	justify-content: center;
+	padding: 150px 0;
+	&__currency {
+	  display: flex;
+	}
+	&__currency:first-child {
+	  margin-right: 40px;
+	}
+	&__input {
+	  width: 200px;
+	}
+ }
+ 
+ @media (max-width: 660px) {
+	.converter {
+	  flex-wrap: wrap;
+	  &__currency:first-child {
+		 margin-right: 0px;
+	  }
+	  &__currency {
+		 margin-top: 20px;
+	  }
+	}
+ }
+ 
